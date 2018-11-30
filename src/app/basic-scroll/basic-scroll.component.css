@@ -1,0 +1,38 @@
+.viewport {
+    height: 100vh; 
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.item {
+    height: 130px;
+    margin: 10px;
+    padding: 10px;
+    background: whitesmoke;
+
+    box-shadow: 2px 2px 3px rgba(#888888, 0.2);
+}
+
+.item-avatar {
+    background-size: cover;
+    align-self: ;
+}
+
+.item-email {
+    font-style: italic;
+    font-size: 90%;
+}
+
+.item-company {
+    font-style: italic;
+    font-size: 90%;
+}
+
+.scrollbar {
+    width: 1em;
+}

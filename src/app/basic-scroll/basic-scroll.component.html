@@ -1,0 +1,19 @@
+<cdk-virtual-scroll-viewport itemSize="100" class="viewport">
+
+  <li class="item animated fadeIn" *cdkVirtualFor="let p of people;">
+    <mat-card>
+      <mat-card-header>
+      <img mat-card-avatar src={{p.avatar}} class="item-avatar" /> 
+      <mat-card-title>{{p.name}}</mat-card-title>
+      <mat-card-title class="item-company">{{p.company}}</mat-card-title>
+      <mat-card-subtitle>{{p.job}}</mat-card-subtitle>
+    </mat-card-header>
+      <mat-card-content>
+        
+        <p>{{p.bio}}</p>
+      </mat-card-content>
+    </mat-card>
+
+  </li>
+
+</cdk-virtual-scroll-viewport>
